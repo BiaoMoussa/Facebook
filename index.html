@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Facebook</title>
+</head>
+
+<body>
+    <header>
+        <div>
+            <div class="logo">
+                <img src="images/facebook.png" alt="Logo">
+            </div>
+            <div class="haut-droite">
+                <span > <label for="email"> Email or Phone</label> <br><input type="email" id="email"></span>
+                <span ><label for="password"> Password <br></label>  <input type="password" id="password"></span>
+                <span class="log-in"><br><input type="submit" value="Log In"> </span>
+                
+            </div>
+            <div class="clear"></div>
+        </div>
+       
+    </header>
+   <div class="contenu">
+    <div class="gauche">
+        <h2>Connect with friends and the <br> world around you on Facebook</h2>
+        <div class="element-gauche">
+            <span class="icon"><img src="images/fb1.png" alt="icon1"> <a href="#"> See photos and updates </a> from friends in News Feed</span>
+            <br>
+            <span class="icon"><img src="images/fb3.png" alt="icon2"> <a href="#"> Share what's new </a> in your life in your timeline </span>
+            <br>
+            <span class="icon"><img src="images/fb2.png" alt="icon3"> <a href="#"> See photos and updates </a> from friends in News Feed</span>
+        </div>
+    </div>
+    <div class="droite">
+        <form method="post">
+            <p>
+                <h1> Sign up </h1>
+                <h3> It's free and will be.</h3>
+                <div class="nom-prenom">
+                    <input type="text" name="name" id="name" placeholder="Name">
+                    <input type="text" name="last-name" id="last-name" placeholder="Last name"><br>
+                </div>
+                <br>
+                <div>
+                    <input type="email" placeholder=" Mobile number or email" id="email">
+                </div>
+                <br>
+                <div>
+                    <input type="password" placeholder="New password" id="password">
+                </div>
+                <h2>Brithday</h2>
+                <span class="Brithday"><input type="month" name="mois" id="mois" placeholder="Month" value="May"> <input type="number" name="jour" id="day" min="1" max="31" step="1" placeholder="Day" value="04"> <input type="number" name="year" id="year" minlength="4" maxlength="4" placeholder="Year" value="1998">  <img src="images/help.png" alt="aide"></span>
+                <h2>Gender</h2>
+                <span class="gender"><input type="radio" name="sexe" id="Female"> <label for="Female"> Female</label> <input type="radio" name="sexe" id="Male"> <label for="Male">Male</label> <input type="radio" name="sexe" id="Custom"> <label for="Custom">Custom</label> <img src="images/help.png" alt="aide"></span>
+                <p>By clicking Sign Up, you agree to our <a href="#">Terms, Data Policy</a> <br> and <a href="#">Cookies Policy. </a>You may receive SMS Notifications from <br> us and opt out any time.</p>
+
+                <input class="sign-up" type="submit" value="Sign up">
+                <hr>
+                <br>
+                <strong><a href="#">Create a Page</a> for a celibrity, band or business.</strong>
+            </p>
+        </form>
+    </div>
+    <div class="clear"></div>
+   </div>
+    
+</body>
+</html>

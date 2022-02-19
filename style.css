@@ -1,0 +1,214 @@
+/***************GENERAL************/
+header
+{
+   display: block;
+   
+}
+.logo
+{
+    margin-bottom: -7em;
+}
+.logo img
+{
+    height: 100px;
+    padding: 5em 0 -5em 0;
+}
+.haut-droite
+{
+    float: right;
+    width: 30%;
+    display: flex;
+}
+body
+{
+    background-color: rgb(220, 223, 224);
+}
+.clear
+{
+    clear: both;
+}
+
+.contenu
+{   
+    display: flex;
+    justify-content: space-between;
+}
+
+input
+{
+    border-radius: 3px;
+    border: 1px solid  rgb(124, 125, 126);
+}
+
+.gauche
+{
+    padding: 2em 0 0 10em;
+}
+
+.icon
+{
+    padding-top: 3em;
+}
+
+.icon img
+{
+    height: 50px;
+    width: 50px;
+    padding-top: 3em;
+}
+
+.icon a
+{
+    font-weight: bold;
+    text-decoration: none;
+    color: black;
+}
+.gender img , .Brithday img
+{
+    height: 15px;
+    width: 15px;
+}
+
+/***********************GENERAL ***************/
+
+/****************** CONTENU ******************/
+
+header
+{
+    background-color: rgba(59,89,152,255);
+}
+a
+{
+    text-decoration: none;
+}
+header .logo
+{
+    padding: 0em 0 0 10em;
+}
+.haut-droite
+{
+    padding-right: 4em;
+    font-weight: 800;
+}
+.haut-droite label
+{
+    color: white;
+}
+.haut-droite span
+{
+    padding: 2em 0em 2em 1em;
+
+}
+
+.haut-droite span input
+{
+    height: 1.5em;
+    margin-top: 0.5em;
+}
+.log-in input
+{
+    height: 2em;
+    width: 4em;
+    background-color: rgb(3, 37, 110);
+    color: white;
+    font-weight: 700;
+}
+.droite input
+{
+    height: 2em;
+    font-size: medium;
+}
+.sign-up
+{
+    height: 2em;
+    width: 10em;
+    background-color: rgb(5, 95, 2);
+    color: white;
+    font-weight: 800;
+    text-shadow: 1px 1px rgba(0, 0, 0, 0.425);
+}
+.droite p a, .droite strong a
+{
+    color: rgba(59,89,152,255);
+}
+
+
+
+
+/****************  RESPONSIVE DESIGN *****************/
+
+/****************** SMARTHPHONE ****************/
+
+@media all and (max-width : 760px)
+{
+    header div
+    {
+        flex-direction: column;
+        height: 20em;
+    }
+    header div .haut-droite 
+    {
+        flex-direction: column;
+        margin: -8em 50% 0 0;
+    }
+    header div .haut-droite span
+    {
+        margin-bottom: -3em;
+    }
+    .gauche
+    {
+        padding-right: 2em;
+        padding-left: -2em;
+    }
+    
+}
+
+
+/**************** TABLETTE ******************/
+
+@media all and (max-width : 992px)
+{
+    header div
+    {
+        flex-direction: column;
+        height: 20em;
+    }
+
+    header div .haut-droite 
+    {
+        flex-direction: column;
+        margin: -8em 50% 0 0;
+    }
+    header div .haut-droite span
+    {
+        margin-bottom: -3em;
+    }
+    .gauche
+    {
+        padding-right: 2em;
+        padding-left: -5em;
+    }
+}
+
+/******************* LAPTOP  ***************/
+@media all and (max-width : 1200px)
+{   
+    header
+    {
+        height: 300px;
+    }
+    header div .haut-droite 
+    {
+        
+        margin-right: 10%;
+    }
+    header div .haut-droite span
+    {
+        margin-bottom: -3em;
+    }
+    .gauche
+    {
+        padding-right: 2em;
+        padding-left: -2em;
+    }
+}
